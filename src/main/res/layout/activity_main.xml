@@ -11,7 +11,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="0dp"
-            android:layout_weight="2"
+            android:layout_weight="4"
             android:layout_gravity="right"
             android:gravity="center_vertical">
 
@@ -19,33 +19,13 @@
                 android:id="@+id/formula"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
                 android:gravity="right"
                 android:text="0"
-                android:textSize="70sp"
-                android:layout_marginRight="30dp"
-                android:layout_marginLeft="30dp"/>
+                android:textSize="70sp" />
 
         </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:layout_gravity="right"
-        android:gravity="center_vertical">
-
-
-        <TextView
-            android:id="@+id/result"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:text=""
-            android:textSize="70sp"
-            android:layout_marginRight="30dp"
-            android:layout_marginLeft="30dp"/>
-
-    </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -74,7 +54,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="+/-"
+                    android:text=""
                     android:textSize="30sp"
                     android:backgroundTint="#adb5bd"/>
 
@@ -84,7 +64,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="%"
+                    android:text=""
                     android:textSize="30sp"
                     android:backgroundTint="#adb5bd"/>
 
@@ -250,7 +230,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="."
+                    android:text=""
                     android:textSize="30sp"/>
 
 
