@@ -16,7 +16,7 @@
             android:gravity="center_vertical">
 
             <TextView
-                android:id="@+id/formula"
+                android:id="@+id/result"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
@@ -54,17 +54,16 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text=""
-                    android:textSize="30sp"
-                    android:backgroundTint="#adb5bd"/>
-
+                    android:backgroundTint="#adb5bd"
+                    android:text="+/-"
+                    android:textSize="30sp" />
 
                 <Button
                     android:id="@+id/percentage"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text=""
+                    android:text="%"
                     android:textSize="30sp"
                     android:backgroundTint="#adb5bd"/>
 
@@ -230,12 +229,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text=""
+                    android:text="."
                     android:textSize="30sp"/>
 
 
                 <Button
-                    android:id="@+id/calculate"
+                    android:id="@+id/equals"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
