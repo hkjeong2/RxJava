@@ -294,6 +294,7 @@ class MainActivity : AppCompatActivity() {
             }
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe{ input ->
+                Log.d("입력값", input)
                 binding.result.text = giveLastNumberInStackAsResult(input)
             }
 
